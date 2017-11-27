@@ -3,7 +3,7 @@ import socket
 UDP_IP = "10.0.0.6"
 UDP_PORT = 5005
 
-MESSAGE = "Hello, World!"
+MESSAGE = "Starting Recording!"
 
 print "UDP target IP:", UDP_IP
 print "UDP target port:", UDP_PORT
