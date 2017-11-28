@@ -18,7 +18,6 @@
 #    License along with this library; if not, write to the Free
 #    Software Foundation, Inc., 59 Temple Place - Suite 330, Boston,
 #    MA 02111-1307, USA
-#HELLO THIS IS THE CHANGE
 
 import smbus
 from time import localtime,strftime
@@ -27,7 +26,7 @@ from LSM9DS0 import *
 import datetime
 bus = smbus.SMBus(1)
 
-filename = "/home/pi/Documents/MHP/MHP_raspicam/Data/Data on #.txt"
+filename = "/home/pi/Documents/Remote_Script_Run/Data/Data on #.txt"
 filename = filename.replace("#",strftime("%d-%m-%Y at %H:%M:%S",localtime()))
 file = open(filename,'w')
 
